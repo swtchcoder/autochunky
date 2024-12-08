@@ -19,7 +19,7 @@ jobs:
           java-version: '23'
           cache: 'gradle'
       - name: Build
-        run: ./gradlew build
+        run: chmod +x gradlew && ./gradlew build
       - name: Upload Fabric
         uses: actions/upload-artifact@v4
         with:
