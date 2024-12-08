@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "autochunky",
+  "version": "${version}",
+  "name": "Auto Chunky",
+  "description": "",
+  "authors": ["switchcodeur"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/autochunky/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "net.switchcodeur.autochunky.Main"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "chunky": "*"
+  }
+}
